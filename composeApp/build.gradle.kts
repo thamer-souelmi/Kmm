@@ -50,6 +50,13 @@ kotlin {
 //            implementation(libs.decompose)
 //            implementation(libs.extensions.compose)
             implementation ("com.arkivanov.decompose:extensions-compose:3.2.2")
+            implementation(libs.voyager.navigator)
+            implementation(libs.voyager.transitions)
+            implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.9.0")
+            implementation(libs.koin.core)
+            implementation(libs.koin.compose)  // Add this line
+
+
 
         }
     }
